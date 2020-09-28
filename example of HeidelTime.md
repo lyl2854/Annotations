@@ -1,5 +1,5 @@
 ### Command:
-a `java -jar de.unihd.dbs.heideltime.standalone.jar afp.com-20050707T105743Z-TX-SGE-JWQ09.xml`
+`java -jar de.unihd.dbs.heideltime.standalone.jar afp.com-20050707T105743Z-TX-SGE-JWQ09.xml`
 
 The example article can be found here:  [https://github.com/crudnik/asrael](https://github.com/crudnik/asrael)
 
