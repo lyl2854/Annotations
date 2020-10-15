@@ -19,7 +19,7 @@ entity_gold, quanitty_gold = [], []
 entity_gold_num, quantity_gold_num = [], []
 
 # Read the gold standard jsonlines annotations.
-gold_standard_path = '../../ground_truth/doccano_file/gold_standard.json'
+gold_standard_path = './gold_standard.json'
 with jsonlines.open(gold_standard_path) as reader:
     for obj in reader:
         quan_temp,entity_temp = [],[]
@@ -42,7 +42,7 @@ entity_generated, quantity_generated = [], []
 # initialize the entity and quantity statistics, number of entity and quanitty in one artilce 
 entity_generated_num, quantity_generated_num = [], []
 # Read the annotated jsonlines annotations 
-annotated_path = '../../ground_truth/doccano_file/AFP_ann.json'
+annotated_path = './AFP_ann.json'
 with jsonlines.open(annotated_path) as reader:
     for obj in reader:
         quan_temp,entity_temp = [],[]
@@ -85,7 +85,7 @@ print("number of correct quantity")
 print(quantity_correct_num)
 
 # existing csv file for the article names, schemas and wikis
-csv_path = '../../ground_truth/doccano_file/100_gold_standard_articles2.CSV'
+csv_path = './100_gold_standard_articles.CSV'
 df = pd.read_csv(csv_path)
 # newly created statistics columns
 df2 = pd.DataFrame({'ground_truth_entity':entity_gold_num, 'ground_truth_quantity':quantity_gold_num, 
