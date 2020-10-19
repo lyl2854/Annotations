@@ -1,0 +1,121 @@
+,entity,schemas,examples,value_type
+0,"country,P17","S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S51,S52,S53,S55,S56,S57,S58,S59,S60,S61,S62,S63,S65,S66","Cameroon,Chile,Lebanon,Germany,Kyrgyzstan,Egypt,Indonesia,Poland,Canada,Norway,Pakistan,Finland,Burkina Faso,US,Colombia,Syria,France,Taiwan,Cyprus,Italy,Belarus,New Zealand,Turkey,China",GPE
+1,"instance_of,P31","S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S16,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S51,S52,S53,S54,S55,S56,S57,S58,S59,S60,S61,S62,S63,S64,S65","suicide attack,suicide car bombing,massacre,suicide bombing,car bombing,mass murder,emergency landing,train wreck,election,festival edition,attack,gun violence,fire,aviation accident,election,terror attack,film festival,award,summit,death,battle,explosion,concert,conclave,arson,suicide,performance art,underground nuclear testing,heat wave,belly landing,stampede,rape,cyberattack,beauty contest,social movement,trade fair,prison riot,kidnapping,coup d'état,strike,bombardment,natural disaster,traffic accident,speech,aircraft shootdown,crime,power outage,shipwrecking,derailment,political murder,protest,sport competition,transport accident,referendum,international incident,military strike,riot,extreme weather,structural failure,murder,Impeachment,child murder,hostage crisis,refugee crisis,hurricane,mining accident,ship grounding,peace conference,military operation,news conference,counter-terrorism,train wreck,landslide,theatre festival,earthquake,Pandemic",EVENT
+2,"located_in_the_administrative_territorial_entity,P131","S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S11,S12,S13,S14,S17,S18,S20,S21,S24,S26,S32,S33,S34,S36,S37,S39,S40,S41,S42,S43,S44,S46,S47,S49,S50,S52,S53,S56,S59,S60,S61,S62,S63,S65","Berlin,Tuusula,TUUSULA,Nice,San Bernardino,Seattle,Eiffel Tower,Japan,Canada,South Holland,Columbus,Glasgow City,Wales,Toronto,Hyderabad,Newtown,Mitte",GPE
+3,"location,P276","S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14,S15,S17,S18,S19,S20,S21,S22,S23,S24,S25,S26,S27,S28,S29,S30,S31,S32,S33,S34,S35,S36,S37,S38,S39,S40,S41,S42,S43,S44,S45,S46,S47,S48,S49,S50,S52,S53,S54,S55,S56,S57,S58,S59,S60,S61,S62,S63,S65,S66","Brussels airport,Oslo,the Central African Republic,Connecticut elementary school,Jakarta,Ankara,Ouagadougou,Warsaw international airport,Jokela school,Jokela High School,ALGIERS,Algiers,Warsaw airport,capital,Bucharest,Istanbul,Carbost,Pacific Ocean,Mediterranean Sea,Barcaldine,Melbourne Grand Prix Circuit",
+4,"organizer,P664","S0,S5,S7,S9,S13,S23,S26,S30,S41,S42,S44,S50,S60","International Ski Federation,European Union of Gymnastics,Major League Baseball,International Olympic Committee,French Football Federation,FC Barcelona,European Volleyball Confederation,IndyCar,Association of Tennis Professionals,Football Association of Iceland,Russian Football Union,World Rowing Federation,American Automobile Association,CONMEBOL,Arab League,",ORG
+5,"located_at_street_address_(DEPRECATED),P969","S0,S61",,
+6,"Twitter_hashtag,P2572","S0,S3,S5,S6,S7,S8,S9,S36,S40","ARIAs,SOTEU,PornoTube,fmdk,gareNantes,SparkasseWitten,ISIS,YoshiMuroya,APB2015,sufi,ParisVersailles,lgm,VC2016,Charrues17,Trans2015,TunnelToulon,haemotolangia,
+Sextube,Midterms2018,PLF2016,gunnerworld",ORG
+7,"founded_by,P112","S0,S7,S60","Isabella Stewart Gardner,Zephaniah Swift Moore,Henri Vaugeois,Maurice Pujo,Edward Raczyński,Honda,Intel,Chung Ju-yung,Chung Ju-yung,Samuel Hahnemann,Irving Stowe,Sur Empire,Lyndon LaRouche,Sunil Mittal,
+George Allen",PERSON
+8,"genre,P136","S0,S7,S24","fantasy film,fairy tale,portrait painting.history painting,science fiction,opera,Romantic music,drama,folk rock,country rock,blues,jazz,comedy,manifesto,equestrian statue,lyric poetry,satirical newspapers,adventure novel,courtly romance,action thriller","WORK_OF_ART	"
+9,"participant,P710","S0,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S14,S15,S21,S22,S28,S29,S31,S34,S35,S36,S38,S40,S42,S45,S46,S47,S50,S53,S57,S58,S59,S60,S61","Hassan Turkmani,Sweden,Dutch Republic,Kingdom of France,Wig Wam,Vanilla Ninja,Jakob Sveistrup,Natalia Podolskaya,Martin Stenmarck,Javine Hylton,
+Marie Ortal Malka,Rona Nishliu,Homare Sawa,Uganda,Rwanda,Russian Empire,David Cameron",PERSON+GPE
+10,"different_from,P1889","S0,S7","China,calculator,World Wide Web,Limburg,Beaujolais,Neil Young,Hermann Brunner,Tripura,Uttarakhand,1912,1971,Sloboda,Chazelles,SCC Berlin,Georgia,olympiad,rugby league,Klingon",PERSON+GPE+ORG+DATE
+11,"award_received,P166",S0,"Academy Award for Best Actress,National Medal of Arts,Donostia Award,Theatre World Award,New Jersey Hall of Fame,Presidential Medal of Freedom,Kennedy Center Honors,Academy Awards,Golden Globe Award,Screen Actors Guild Award,Emmy Award,Silver Bear,Stalin Prize,Nobel Peace Prize,Fritt Ord Award,Humanist of the Year",PERSON+WORK_OF_ART
+12,"follows,P155","S0,S5,S6,S7,S8,S9,S13,S14,S18,S34,S41,S42,S44,S46,S59","October,Colonial Brazil,Colony of Sierra Leone,World War I,New Hebrides,2001,2008,1995,1972,Eurovision Song Contest 2011,1018 Arnolda,Byzantine Empire,The Hobbit",EVENT+DATE+ORG+GPE
+13,"followed_by,P156","S0,S5,S6,S7,S8,S9,S12,S13,S14,S18,S34,S41,S42,S46,S59,S65","December,Christiania,2010,1907,deuteron,1966,Radical Democratic Party,Ice hockey at the 2018 Winter Olympics,Generation Love,1507,14 BC,jerk,Ottoman Empire,Emirate of Crete",EVENT+DATE+GPE
+14,"winner,P1346","S0,S5,S7,S8,S44","Millonarios,Deportivo Cali,Atlético Nacional,Atlético Junior,San Francisco Giants,Loreen,David Coulthard,Jenson Button,Jacques Laffite,John Watson,Alberto Ascari,Michael Schumacher",PERSON+ORG
+15,"presenter,P371","S0,S7,S8","Tom Bergeron,Guy Fieri,Philippe Gildas,Mac Lesggy,John Muller,Patxi Alonso,Françoise Joly,Nicolas Demorand,Ben Mulroney,Denis Brogniart,Mary Nightingale,Eddie Mair,Henri Sannier,Christine Ockrent,Bruno Masure",PERSON
+16,"part_of_the_series,P179","S0,S7,S8,S9","Stargate Atlantis,Zork,The Simpsons,Eggerland,Dhoom,Prison Break,Killzone,compact car,Walt Disney Animation Studios film,Legacy of Kain,Berlin International Film Festival,Primera fila,Diddy Kong Racing,Resistance,Spain at the Olympics,Fantasy Zone,Buffy the Vampire Slayer",EVENT+WORK_OF_ART
+17,"production_company,P272","S0,S24","Gaumont Film Company,Syrena,The Asylum,Baby Cow Productions,British Broadcasting Corporation,American Film Institute,Cineriz,Rede Globo,Titanus,Digital Playground,Myriad Pictures,Medusa Film,Silvio Berlusconi Communications,Allied Filmmakers",ORG
+18,"country_of_origin,P495","S0,S8,S9,S13,S62","Italy,China,United States of America,France,Poland,England,Slovakia,India,United Kingdom,Germany,Denmark,Brazil,Sweden,European Union,Iceland",GPE
+19,"original_network,P449","S0,S7,S8","Telewizja Polska,BBC,Rede Globo,YTV,American Broadcasting Company,NBC,Fox Broadcasting Company,MTV,Cartoon Network,CBBC,Carousel,Domashny,Seoul Broadcasting System,CBS,Comedy Central,TV Asahi,broadcast syndication",ORG
+20,"executive_producer,P1431",S0,"Roland Emmerich,Colin Wilson,John Lasseter,Hayao Miyazaki,John Pierson,Raymond Chow,Ken Keeler,Matt Groening,Josh Gad,Gordon Carroll,David Giler,Walter Hill,Carl Laemmle",PERSON
+21,"qualifies_for_event,P3085",S0,"European Cup Winners' Cup,UEFA Cup,1995–96 UEFA Cup Winners' Cup,Miss Earth,Miss Universe,Miss World,2008 Uber Cup,2006 Thomas Cup,2010–2011 Grand Prix of Figure Skating Final,1970–71 Alpha Ethniki,Miss France,Premier League",EVENT
+22,"director,P57","S0,S8,S24","Franco Amurri,Bourlem Guerdjou,Tomas Alfredson,Lewis Seiler,Paul Helmick,Howard Hawks,Ella Lemhagen,Sam Pillsbury,Bradley Parker,Takeshi Kitano,Mark Neveldine,Brian Taylor,Roman Polanski,Sabbir Khan",PERSON
+23,"cast_member,P161","S0,S7","Clotilde Mollet,Christian Ameri,Benjamin Baroche,Nicky Marbot,Audrey Fleurot,Caroline Bourg,Cyril Mendy,Martin Balsam,John Fiedler,E. G. Marshall,Jack Klugman,Edward Binns,Jack Warden,Henry Fonda",PERSON
+24,"producer,P162","S0,S8","Yann Zenou,Nicolas Duval Adassovsky,Laurent Zeitoun,Reginald Rose,Biztram,Jeanne Bates,Leslie Benzies,Sam Houser,Carlo Ponti,Alberto Grimaldi,Raymond Eger,Franco Cristaldi,Renzo Rossellini,Steven WilsonM,Vince McMahon",PERSON
+25,"final_event,P3967",S0,"1992 Summer Olympics closing ceremony,1888 Scottish Cup Final,1994 FIFA World Cup Final,1971 DFB-Pokal Final,2000 Turkish Cup Final,1954 FIFA World Cup Final,1978 UEFA Cup Final,1998 OFC Nations Cup Final,1996 AFC Asian Cup Final",EVENT
+26,"has_part,P527","S0,S5,S6,S29,S41,S45,S46,S50,S62,S66","November 11,North Yorkshire,oils,table salt,Triticum durum,Flanders,Battle of Aachen,zooarchaeology,androecium",
+27,"target,P533","S1,S2,S6,S11,S12,S15,S25,S28,S31,S40,S46,S50,S53","train,Jo Cox,policeman,government,tourists,Charlie Hebdo,Benazir Bhutto,Volgograd,Adolf Hitler,Palestinian refugee,Cercanías Madrid,Syriac Catholic Church,Ronald Reagan,Western Line",PERSON+FAC+ORG
+28,"armament,P520","S1,S2,S6,S11,S18,S28,S31,S40,S46,S50,S53","lorry,Kh-29,Kh-31,KAB-500L,S-8,R-60,unguided bomb,cannon,9K34 Strela-3,9K121 Vikhr,9K38 Igla,Besa Machine Gun,CBU-24,Paveway,GAU-13",PRODUCT+FAC
+29,"has_cause,P828","S1,S2,S3,S4,S6,S11,S20,S21,S32,S33,S35,S39,S41,S45,S46,S47,S49,S50,S53,S62,S66","derailment,cartographic generalization,South American dreadnought race,Warsaw Uprising,Ebola virus,fatty acid synthesis,animal attack,risk source,gastroparesis,migraine disorder",EVENT+FAC+NORP
+30,"located_in_time_zone,P421","S1,S4,S6,S11,S15,S28,S47,S53,S59,S65","UTC+08:00,UTC-06:00,UTC+01:00,UTC+02:00,Moscow time,European time",TIME
+31,"applies_to_jurisdiction,P1001","S1,S5,S6,S7,S14,S44","Faroe Islands,Nordsachsen,Staffordshire,Eurozone,South Carolina,North Carolina,Oregon,Saxony,Schleswig-Holstein,Finland",GPE
+32,"charge,P1595","S1,S39","torture,rape,sexual abuse,murder,transvestism,witchcraft,disobedience,rebellion,child sexual abuse,burglary,sorcery,Charming,enchantment,arson,assault,influence peddling,documentary fraud,money laundering",EVENT
+33,"court,P4884",S1,"Supreme Court of the United States,Court of Justice,Appellate Committee of the House of Lords,High Court of Botswana,Exchequer of Pleas,Supreme Court of Canada,Judicial Committee of the Privy Council,European Court of Human Rights,Supreme Court of the Philippines,Supreme Court of India,Supreme Court of the United Kingdom,Justice of the Supreme Court of Sweden",ORG
+34,"located_on_street,P669","S1,S6",,
+35,"investigated_by,P1840","S1,S2,S3,S4,S6,S12,S20,S21,S33,S35,S39,S40,S53,S62",,
+36,"movement,P135",S1,,
+37,"has_effect,P1542","S1,S3,S4,S6,S11,S12,S32,S33,S36,S50,S53,S65,S66",,
+38,"facet_of,P1269","S1,S7,S8,S11,S44",,
+39,"part_of,P361","S1,S2,S4,S5,S6,S7,S8,S9,S11,S12,S13,S18,S28,S29,S30,S31,S34,S35,S36,S40,S41,S44,S45,S46,S47,S50,S53,S54,S55,S59,S62,S65",,
+40,"named_after,P138","S2,S7,S8,S39,S41",,
+41,"participant_of,P1344",S2,,
+42,"place_of_death,P20","S2,S10,S52",,
+43,"operator,P137","S3,S4,S20,S35,S38,S39,S40,S57,S62",Malaysia Airlines,
+44,"start_point,P1427","S3,S4,S5,S6,S12,S20,S33,S35,S39,S40,S41,S62",,
+45,"destination_point,P1444","S3,S4,S5,S6,S12,S20,S33,S35,S39,S62",,
+46,"has_immediate_cause,P1478","S3,S4,S11,S44,S45,S60,S62,S63,S65",,
+47,"destroyed,P3082",S3,,
+48,"aircraft_registration,P426","S4,S35",,
+49,"item_operated,P121","S4,S20,S35,S38,S39,S43,S57,S62",,
+50,"flight_number,P3090","S4,S20,S35",,
+51,"via,P2825",S4,,
+52,"terminus,P559",S4,,
+53,"cause_of_destruction,P770",S4,,
+54,"record_held,P1000",S4,,
+55,"terminus_location,P609",S4,,
+56,"office_contested,P541","S5,S7,S14,S61",,
+57,"candidate,P726","S5,S7,S8,S40,S44,S61","Alexander Lukashenko,Juan Manuel Santos,Antanas Mockus",
+58,"successful_candidate,P991","S5,S7,S8,S14,S61",,
+59,"capital,P36",S5,,
+60,"replaced_by,P1366","S5,S8",,
+61,"replaces,P1365",S5,,
+62,"series,P179","S5,S62",,
+63,"appointed_by,P748",S5,,
+64,"nominated_by,P4353",S5,,
+65,"is_a_list_of,P360",S5,,
+66,"pole_position,P3764",S5,,
+67,"officeholder,P1308",S5,,
+68,"elector,P2319",S5,,
+69,"electoral_district,P768",S5,,
+70,"main_regulatory_text,P92","S5,S44",,
+71,"chairperson,P488","S5,S8,S29,S60",,
+72,"speaker,P823","S5,S9,S34,S60",,
+73,"significant_event,P793","S5,S21,S29,S41,S54",,
+74,"member_of_political_party,P102",S5,,
+75,"has_list,P2354",S5,,
+76,"website_account_on,P553","S5,S60",,
+77,"subclass_of,P279","S5,S7,S8,S9,S34,S62",,
+78,"immediate_cause_of,P1536","S6,S11,S44,S46,S53",,
+79,"member_of,P463",S7,,
+80,"designed_by,P287",S7,,
+81,"performer,P175","S7,S13",,
+82,"conferred_by,P1027","S7,S8",,
+83,"topic's_main_template,P1424",S7,,
+84,"objective_of_project_or_action,P3712","S7,S40",,
+85,"director/manager,P1037","S7,S9",,
+86,"category_for_recipients_of_this_award,P2517",S8,,
+87,"next_lower_rank,P3729",S8,,
+88,"next_higher_rank,P3730",S8,,
+89,"creator,P170","S8,S41",,
+90,"sponsor,P859","S9,S13",,
+91,"sex_or_gender,P21",S10,,
+92,"author,P50","S17,S34",,
+93,"based_on,P144",S24,,
+94,"time_period,P2348",S24,,
+95,"costume_designer,P2515",S24,,
+96,"scenographer,P4608",S24,,
+97,"sound_designer,P5028",S24,,
+98,"video_designer,P5880",S24,,
+99,"projection_designer,P5881",S24,,
+100,"inspired_by,P941",S25,,
+101,"industry,P452",S26,,
+102,"damaged,P3081","S33,S65",,
+103,"described_by_source,P1343",S35,,
+104,"uses,P2283",S36,,
+105,"connecting_line,P81","S39,S62",,
+106,"commemorates,P547",S41,,
+107,"sports_season_of_league_or_competition,P3450",S42,,
+108,"place_of_birth,P19",S52,,
+109,"country_of_citizenship,P27",S52,,
+110,"penalty,P1596",S52,,
+111,"conflict,P607",S53,,
+112,"located_on_terrain_feature,P706","S56,S65",,
+113,"headquarters_location,P159",S60,,
+114,"Mercalli_intensity_scale,P2784",S65,,
+115,"fault,P5095",S65,,
+116,"organized_response_related_to_outbreak,P8045",S66,,
